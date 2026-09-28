@@ -77,6 +77,5 @@ Arashi's supervision. Bahadır Yüzbaşı subsequently developed and validated
 the code used for the reported analyses. See
 [Code provenance](CODE_PROVENANCE.md).
 
-The Python source is licensed under GPL-3.0-or-later, as in
-[`byuzbasi/sglasso`](https://github.com/byuzbasi/sglasso); see
+The Python source is licensed under GPL-3.0-or-later; see
 [LICENSE.md](LICENSE.md).
