@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+# The verified paper workflows and their source data remain local.
+studies/
+docs/REPRODUCE.md
+DATA_SOURCES.md
+fetch_nox.py

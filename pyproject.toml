@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=80.9,<81"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shape-adaptive-robust-regression"
+version = "0.1.0"
+description = "Python estimators for shape-adaptive robust penalized regression"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE.md"]
+authors = [
+  {name = "Mohammad Arashi"},
+  {name = "Bahadır Yüzbaşı"},
+]
+dependencies = [
+  "numpy==2.2.6",
+  "numba==0.61.2",
+  "scipy==1.16.3",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.13",
+  "Operating System :: MacOS",
+  "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.urls]
+Repository = "https://github.com/byuzbasi/shape-adaptive-robust-regression"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: >-
+  If you use these estimators, cite this software and the associated
+  Arashi-Yüzbaşı paper when its publication details become available.
+type: software
+title: Shape-adaptive robust regression
+authors:
+  - family-names: Arashi
+    given-names: Mohammad
+  - family-names: Yüzbaşı
+    given-names: Bahadır
+version: 0.1.0
+url: https://github.com/byuzbasi/shape-adaptive-robust-regression
+license: GPL-3.0-or-later
