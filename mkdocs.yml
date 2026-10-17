@@ -1,0 +1,61 @@
+site_name: ShapeAdaptiveEN
+docs_dir: documentation
+site_dir: docs
+hooks:
+  - tools/pages_marker.py
+site_description: Shape-adaptive robust regression — Python software, examples and API.
+site_url: https://byuzbasi.github.io/shape-adaptive-robust-regression/
+repo_url: https://github.com/byuzbasi/shape-adaptive-robust-regression
+repo_name: byuzbasi/shape-adaptive-robust-regression
+edit_uri: ""
+theme:
+  name: material
+  language: en
+  font: false
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+nav:
+  - Overview: index.md
+  - Get started: getting-started.md
+  - API: reference.md
+  - Data & reproducibility: reproducibility.md
+  - Citation & credit: citation.md
+  - Version notes: changelog.md
+  - Research hub: https://byuzbasi.github.io/en/software/
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+extra_css:
+  - assets/extra.css
+extra:
+  generator: false
+validation:
+  links:
+    not_found: warn
+    unrecognized_links: warn

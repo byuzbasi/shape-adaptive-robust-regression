@@ -1,0 +1,9 @@
+:root { --md-primary-fg-color: #313b68; --md-accent-fg-color: #6578a0; }
+.md-typeset h1 { font-weight: 650; letter-spacing: -.04em; color: var(--md-default-fg-color); }
+.md-typeset h2 { margin-top: 2.6rem; padding-top: .6rem; border-top: 1px solid #8da2b833; }
+.md-typeset { font-size: .84rem; line-height: 1.8; }
+.md-typeset img { border-radius: 1rem; max-width: 100%; }
+.md-typeset pre { border-radius: .55rem; }
+.md-typeset .md-button { margin: .25rem .35rem .25rem 0; }
+.md-typeset .hero-note { color: var(--md-default-fg-color--light); font-size: .7rem; }
+[data-md-color-scheme="slate"] { --md-default-bg-color: #202736; --md-code-bg-color: #293346; }

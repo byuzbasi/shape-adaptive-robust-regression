@@ -1,0 +1,22 @@
+name: Documentation feedback
+description: Report a broken link, unclear example or documentation correction
+title: "[Docs] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL or source path
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should be clarified or corrected?
+      description: Include a small synthetic example if useful. Do not upload private data.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Package version and environment
+      description: For an executable example, include R sessionInfo() or Python/package versions.

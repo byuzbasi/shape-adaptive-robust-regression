@@ -1,5 +1,11 @@
 # Shape-adaptive robust regression
 
+[Documentation](https://byuzbasi.github.io/shape-adaptive-robust-regression/) · [Get started](https://byuzbasi.github.io/shape-adaptive-robust-regression/getting-started/) · [API](https://byuzbasi.github.io/shape-adaptive-robust-regression/reference/)
+
+![ShapeAdaptiveEN: robust regression under skewness and heavy tails](documentation/assets/banner.svg)
+
+*Conceptual residual-shape illustration, not an estimated distribution.*
+
 Installable Python estimators for *From Residual-Moment
 Penalties to Shape-Adaptive Robust Estimation under Skewness and Heavy Tails*
 by Mohammad Arashi and Bahadır Yüzbaşı.

@@ -27,6 +27,7 @@ classifiers = [
 ]
 
 [project.urls]
+Documentation = "https://byuzbasi.github.io/shape-adaptive-robust-regression/"
 Repository = "https://github.com/byuzbasi/shape-adaptive-robust-regression"
 
 [tool.setuptools.packages.find]
